@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="ol.css">
+    
+	
+       <form action="html/OLA/ol.php" method="POST">
+        <div class="box">
+
+            	<div class="imgBx">
+            	    <img  class="man" src="man.jpg"/>
+            	</div>
+
+              <div class="content" align="center">
+                      
+                      <div class="sign">
+                        Signup
+                      </div>
+                    
+                     <div class="textbox">
+
+                      <i class="fa fa-user" aria-hidden="true" style="font-size: 20px"></i> 
+                     <input type="text" placeholder="Enter name here" name="name" value="" />
+                     </div>
+                     
+
+                                   
+                  
+                     <div class="textbox">
+                      <i class="fa fa-envelope" aria-hidden="true" style="font-size:16px" ></i>
+                     <input type="" name="email" placeholder="email" value="" />
+                    
+                    </div>
+             
+                    <div class="textbox">
+                      <i class="fa fa-lock" aria-hidden="true" style="font-size: 20px"></i>
+                    <input class="pass" type="Password" placeholder="Password" name="pass" value="" />
+			              </div>
+                    <b>
+                      
+                    <div class="gen">
+                     Gender:<br>                  
+                     <input type="radio" name="Gender" value="m" />
+                     Male  &ensp;
+                     <input type="radio" name="Gender" value="f" />
+                     Female &ensp;
+                     <input type="radio" name="Gender" value="o" />
+                     Other
+                   </div>
+
+                    <div class="dob">
+                      DOB : &emsp;
+                      <input type="date" min="1-1-1999" max="1-1-2020" placeholder="date" name="date">
+                    </div>
+                  </b>
+
+                    <b>
+               
+                 </b>
+                    <b>      
+                    <a href="#">
+                   <input   type="button" class="btn" name="create" value="SUBMIT"/>  
+                 </a>
+                 </b>
+                                   
+              </div>
+        </div>   
+        </form>            
+
+  
+ 
+   
+      
+
+
+
+</body>
+</html>
+
+<?php
+  require "footer.php"
+  ?>
