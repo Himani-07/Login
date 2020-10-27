@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>facebook</title>
+</head>
+<body>
+<center>
+<h1><div style="background:white;height:50px;width:300px;color:blue;"><marquee>facebook</h1></div></marquee>
+</center>
+<body bgcolor="grey">
+<font face="arial black"size="2"color="black">
+<b>
+<pre>
+		<center><h2><font 1 color="yellow">lOGIN</h2></font 1></center>
+PHONE	:<input type="text"size="30"value="phone">
+			OR
+E-MAIL  :<input type="text"size="30"value="email">
+	 
+PASSWORD:<input type="password"size="30">
+	
+<center>
+<input type="button"color="blue"value="login"/></center>
+<hr>
+		<center><h2><font 1 color="yellow">SIGN-UP</font></h2></center>
+NAME	:<input type="text"size="30"value="name">
+			
+SURNAME :<input type="text"size="30"value="surname">
+
+GENDER  :MALE<INPUT TYPE="RADIO"NAME="G1"/>
+	 FEMALE<INPUT TYPE="RADIO"NAME="G2"/>
+
+PHONE	:<input type="text"size="30"value="phone">
+			OR
+E-MAIL  :<input type="text"size="30"value="email">
+
+
+PASSWORD:<input type="password"size="30">
+	
+<center>
+<input type="button"color="blue"value="signup"/></center>
+<hr>
+</pre>
+</b>
+</body>
+</html>
+
